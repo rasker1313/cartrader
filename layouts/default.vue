@@ -1,10 +1,11 @@
 <template>
   <div>
-    <CarCards />
+    <NavBar />
+    <slot />
   </div>
 </template>
 
-<script>
+<script setup>
 
 </script>
 

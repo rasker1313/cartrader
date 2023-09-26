@@ -1,15 +1,13 @@
 <template>
   <div>
-    <NavBar />
     <CarHero  />
   </div>
-
 </template>
 
-<script>
-export default {
-  name: "index",
-}
+<script setup>
+useHead({
+  title:'Car Trader'
+})
 </script>
 
 <style scoped>

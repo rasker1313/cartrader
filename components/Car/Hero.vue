@@ -14,10 +14,8 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: "Hero",
-}
+<script setup>
+
 </script>
 
 <style scoped>
